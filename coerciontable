@@ -1,0 +1,32 @@
+              STRING        NUMBER          BOOLEAN
+Undefined     string        Nan             false
+
+null          string        null+number     false
+
+true          string         number+1        true
+
+false         string        number +false     false
+
+""            string        number in string  false
+
+1.2           string        returns number     true
+
+one           string        returns string/number  true
+
+0             string        number added to 0  false
+
+-0            string        number without -    false
+
+infinity      string        infinity          true
+
+NaN           string        Nan               false
+
+1             string        number + "1"      true
+
+{}            NaN           number added      true
+
+[]            string        number added      true
+
+[something]   "somethingstring"   numberstring  true
+
+function(){}   syntax error   syntax error    true

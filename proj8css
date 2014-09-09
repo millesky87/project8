@@ -1,0 +1,37 @@
+.container {
+  width: 500px;
+  border-style: inset;
+  border: 2px #00AFB7 black; }
+
+h2 {text-shadow: 4px 4px 4px #ff0000;
+  height: 60px;
+  font-size: 60px;
+  font-style: italic;
+  word-spacing: 30px;
+  letter-spacing: 15px;
+background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#2F2727));
+  text-align: center;
+  width: 500px;
+  margin: 0;
+  overflow: hidden;
+  outline: 1px solid black; }
+
+.text {
+  height: 0;
+  background-color: blue;
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  overflow: hidden;
+  transition: 1s;
+  outline: 1px solid black; }
+
+
+.text.new {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 160px;
+  transition: 2s;
+  outline: 1px solid black; }
